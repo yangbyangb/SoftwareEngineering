@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.sjtu.yangbo.sjtutourguide.IssuesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="日常事务办理流程"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="校园卡挂失"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="1.上海交大APP一门式服务\n2.http://ecard.sjtu.edu.cn\n3.二餐理发店旁边\n4.图书信息管理楼一楼（持身份证等有效证件）\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="医疗报销流程"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="在xyy.sjtu.edu.cn提交就诊材料照片，接到通知后到学服提交材料原件\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="火车优惠票加磁"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="至行政楼B112\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="电费缴纳"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="1.交大APP:一门式服务\n2.携校园卡至一餐、二餐校园卡圈存机进行水电账户充值\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="寝室开网"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="http://nimo.sjtu.edu.cn用jaccount登录点击申请开网，填写相关信息即可\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="废旧书籍回收，二手书籍购买"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="1.爱心屋\n2.海角书店\n3.教育超市\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="正装租赁"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="在爱心屋申请办理\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="空调租赁"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:text="以寝室为单位，也可委托一名同学，持校园卡至闵行校区商业街124号格力空调（交大）服务中心现场办理。\n如有其它问题请关注微信公众号SJTU空调服务中心（SJTU-GREE）或拨打咨询热线：021-34782188\n"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
